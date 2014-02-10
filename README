@@ -1,1 +1,5 @@
 http://zhh2009.iteye.com/blog/1557891
+
+tomcat7 编译需要jdk1.7
+
+依赖 jstl standard 两个jar

@@ -9,7 +9,7 @@
 	<name>Tomcat7.0</name>
 	<version>7.0</version>
 
-	
+
 
 	<build>
 		<finalName>Tomcat7.0</finalName>
@@ -40,7 +40,12 @@
 
 	<dependencies>
 
-		
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-dbcp</artifactId>

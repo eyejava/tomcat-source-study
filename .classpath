@@ -8,25 +8,13 @@
 	<classpathentry kind="src" path="webapps/examples/jsp/plugin/applet"/>
 	<classpathentry kind="src" path="webapps/examples/WEB-INF/classes"/>
 	<classpathentry kind="src" path="webapps/examples/WEB-INF/jsp/applet"/>
-	<classpathentry kind="lib" path="webapps/examples/WEB-INF/lib/jstl.jar"/>
-	<classpathentry kind="lib" path="webapps/examples/WEB-INF/lib/standard.jar"/>
-	<classpathentry including="**/*.java" kind="src" output="target/classes" path="trunk/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="trunk/test">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/lscm/jar/standard.jar"/>
+	<classpathentry kind="lib" path="/home/lscm/jar/jstl.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_45"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
